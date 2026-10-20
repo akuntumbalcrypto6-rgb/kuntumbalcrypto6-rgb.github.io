@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#060912" />
+      <stop offset="50%" stop-color="#141E30" />
+      <stop offset="85%" stop-color="#243B55" />
+      <stop offset="100%" stop-color="#E9B44C" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121d2d" />
+      <stop offset="100%" stop-color="#080d16" />
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="740" fill="url(#skyGrad)" />
+  
+  <!-- Stars -->
+  <circle cx="150" cy="120" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="320" cy="80" r="1.2" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="680" cy="140" r="1.8" fill="#FFF2A3" opacity="0.8"/>
+  <circle cx="480" cy="190" r="1" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- Background Skyscrapers -->
+  <rect x="40" y="380" width="70" height="360" fill="#0c1422" />
+  <rect x="130" y="320" width="85" height="420" fill="#090f1a" />
+  <rect x="235" y="240" width="105" height="500" fill="#0b1320" />
+  <!-- Spire on center tower -->
+  <rect x="285" y="190" width="4" height="50" fill="#8899aa" />
+  <circle cx="287" cy="190" r="3" fill="#ef4444" />
+  <!-- Tower Crown -->
+  <rect x="240" y="244" width="95" height="10" fill="#e9b44c" opacity="0.8" />
+
+  <rect x="360" y="300" width="80" height="440" fill="#0e1726" />
+  <rect x="460" y="260" width="95" height="480" fill="#0a101b" />
+  <!-- Spire 2 -->
+  <rect x="505" y="215" width="4" height="45" fill="#8899aa" />
+  <circle cx="507" cy="215" r="3" fill="#ef4444" />
+
+  <rect x="575" y="350" width="75" height="390" fill="#0d1524" />
+  <rect x="670" y="400" width="85" height="340" fill="#090e18" />
+
+  <!-- Window Lights Grid -->
+  <!-- Tower 1 Windows -->
+  <g fill="#ffeaa7" opacity="0.85">
+    <rect x="145" y="360" width="10" height="8" />
+    <rect x="170" y="360" width="10" height="8" />
+    <rect x="195" y="360" width="10" height="8" />
+    <rect x="145" y="400" width="10" height="8" />
+    <rect x="195" y="400" width="10" height="8" />
+    <rect x="170" y="440" width="10" height="8" />
+    <rect x="145" y="480" width="10" height="8" />
+    <rect x="170" y="480" width="10" height="8" />
+    <rect x="145" y="540" width="10" height="8" />
+    <rect x="195" y="540" width="10" height="8" />
+  </g>
+
+  <!-- Center Landmark Tower Windows -->
+  <g fill="#ffdf80" opacity="0.9">
+    <rect x="255" y="280" width="12" height="9" />
+    <rect x="280" y="280" width="12" height="9" />
+    <rect x="305" y="280" width="12" height="9" />
+    <rect x="255" y="320" width="12" height="9" />
+    <rect x="305" y="320" width="12" height="9" />
+    <rect x="280" y="360" width="12" height="9" />
+    <rect x="255" y="400" width="12" height="9" />
+    <rect x="280" y="400" width="12" height="9" />
+    <rect x="305" y="400" width="12" height="9" />
+    <rect x="255" y="450" width="12" height="9" />
+    <rect x="305" y="450" width="12" height="9" />
+    <rect x="280" y="500" width="12" height="9" />
+    <rect x="255" y="550" width="12" height="9" />
+    <rect x="280" y="550" width="12" height="9" />
+    <rect x="305" y="550" width="12" height="9" />
+  </g>
+
+  <!-- Tower 2 Windows (Cool White) -->
+  <g fill="#b3e5fc" opacity="0.8">
+    <rect x="480" y="290" width="11" height="8" />
+    <rect x="505" y="290" width="11" height="8" />
+    <rect x="530" y="290" width="11" height="8" />
+    <rect x="480" y="340" width="11" height="8" />
+    <rect x="530" y="340" width="11" height="8" />
+    <rect x="505" y="380" width="11" height="8" />
+    <rect x="480" y="430" width="11" height="8" />
+    <rect x="505" y="430" width="11" height="8" />
+    <rect x="480" y="520" width="11" height="8" />
+    <rect x="530" y="520" width="11" height="8" />
+  </g>
+
+  <!-- Tower 3 Windows -->
+  <g fill="#ffeaa7" opacity="0.85">
+    <rect x="380" y="340" width="10" height="8" />
+    <rect x="410" y="340" width="10" height="8" />
+    <rect x="380" y="390" width="10" height="8" />
+    <rect x="380" y="460" width="10" height="8" />
+    <rect x="410" y="460" width="10" height="8" />
+    <rect x="410" y="530" width="10" height="8" />
+  </g>
+
+  <!-- Water / Waterfront Glow Reflection -->
+  <rect y="740" width="800" height="120" fill="url(#waterGrad)" />
+  <rect y="740" width="800" height="4" fill="#e9b44c" opacity="0.5" />
+
+  <!-- Polaroid Frame Base (Solid White) -->
+  <rect y="860" width="800" height="140" fill="#ffffff" />
+  <text x="400" y="920" font-family="'Georgia', serif" font-size="28" font-weight="bold" fill="#101827" text-anchor="middle" letter-spacing="2">A LITTLE NIGHT FOR YOU</text>
+  <text x="400" y="955" font-family="'Georgia', serif" font-size="16" font-style="italic" fill="#64748b" text-anchor="middle" letter-spacing="1">City Nights</text>
+</svg>
